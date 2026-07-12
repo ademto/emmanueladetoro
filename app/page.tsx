@@ -26,9 +26,9 @@ const projects = [
 ];
 
 const socials = [
-  { icon: FiGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FiLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FiTwitter, href: "https://x.com", label: "X" },
+  { icon: FiGithub, href: "https://github.com/ademto", label: "GitHub" },
+  { icon: FiLinkedin, href: "https://www.linkedin.com/in/emmanuel-adetoro", label: "LinkedIn" },
+  { icon: FiTwitter, href: "https://x.com/RealPentester", label: "X" },
 ];
 
 export default function Home() {
