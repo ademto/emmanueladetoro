@@ -56,22 +56,22 @@ export default function Home() {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex justify-end px-6 sm:px-12 pt-10 max-w-5xl mx-auto">
         <div className="flex items-center gap-8">
-          <Link
-            href="#hero"
+          <button
+            onClick={() => document.getElementById("hero")?.scrollIntoView({ behavior: "smooth" })}
             className={`text-sm transition-colors ${
               active === "hero" ? "text-foreground" : "text-muted hover:text-foreground"
             }`}
           >
             Home
-          </Link>
-          <Link
-            href="#projects"
+          </button>
+          <button
+            onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
             className={`text-sm transition-colors ${
               active === "projects" ? "text-foreground" : "text-muted hover:text-foreground"
             }`}
           >
             Projects
-          </Link>
+          </button>
         </div>
       </nav>
 
