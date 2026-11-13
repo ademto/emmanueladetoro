@@ -6,22 +6,22 @@ import { useEffect, useState } from "react";
 
 const projects = [
   {
+    title: "Aposteli",
+    url: "https://aposteli.com",
+    domain: "aposteli.com",
+    description: "A social platform grounded in Christ-like values, bringing Scripture into a broader social experience.",
+  },
+  {
     title: "Yikora",
     url: "https://yikora.com",
     domain: "yikora.com",
-    description: "A social platform for campus life, connecting students and communities.",
-  },
-  {
-    title: "Demtos Clip",
-    url: "https://clip.demtos.com",
-    domain: "clip.demtos.com",
-    description: "AI-powered sermon clipping and content generation tool.",
+    description: "A digital campus and social media platform connecting tertiary students within and beyond their institutions.",
   },
   {
     title: "Demtos",
     url: "https://demtos.com",
     domain: "demtos.com",
-    description: "Church management software for modern organizations.",
+    description: "Church technology combining church management software with AI-powered tools that turn long-form videos into short-form content, transcripts and more.",
   },
 ];
 
@@ -81,7 +81,7 @@ export default function Home() {
           Emmanuel Adetoro
         </h1>
         <p className="text-sm sm:text-base text-muted mt-3">
-          Founder of <Link href="https://yikora.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:underline">Yikora</Link>.
+          Software Engineer &amp; Entrepreneur
         </p>
       </section>
 
